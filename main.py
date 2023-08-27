@@ -1,14 +1,6 @@
 from transformers import pipeline
 from langchain.llms import HuggingFacePipeline
-import torch
-from transformers import (
-    AutoTokenizer,
-    AutoModelForCausalLM,
-    pipeline,
-    AutoModelForSeq2SeqLM,
-    AutoConfig,
-)
-from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
+from transformers import AutoConfig, AutoModelForSeq2SeqLM, AutoModelForCausalLM, AutoTokenizer, pipeline
 from langchain import HuggingFaceHub
 from langchain import PromptTemplate, LLMChain
 import os
